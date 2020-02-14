@@ -1,6 +1,6 @@
 # Belief propagation in Ising models
 
-A sum-product message-passing algorithm is implemented for an Ising model. The model is embedded in a generic graph created with networkx.
+A sum-product message-passing algorithm is implemented for an Ising model. The model is embedded in a generic graph that is implemented with networkx.
 
 From the messages, we obtain the beliefs and the local magnetization and check that in a 2D lattice with periodic boundary condition we indeed find the Bethe critical point. The two-point beliefs, i.e. the joint probabilities over neighbouring variables, are used to estimate the two-point entropy cumulant.
 

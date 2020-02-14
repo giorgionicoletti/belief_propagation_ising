@@ -40,7 +40,7 @@ class beliefs:
             
             pbel = np.ones(4)
 
-            for idx_state, pair_state in enumerate([(-1,-1), (1,-1), (1,-1),(1,1)]):
+            for idx_state, pair_state in enumerate([(-1,-1), (-1,1), (1,-1),(1,1)]):
                 cost = J
                 for i, s in enumerate(pair_state):
                     cost *= s
